@@ -67,14 +67,10 @@ end
         someone_won = true
         current = [win_index_1, win_index_2, win_index_3]
       else
-        false
+        someone_won = false
       end
     end
-    if someone_won
-      current
-    else
-      false
-    end
+    someone_won
   end
 
   def full?
